@@ -1,0 +1,74 @@
+body{
+    margin-top: 5%;
+    text-align: center;
+    border: 2px solid black;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+label{
+    display: block;
+    margin: 2%;
+}
+
+h2{
+  margin: 2%;
+}
+
+h3{
+    padding: 2%;
+    margin-top: 0;
+    border-bottom:2px solid black;
+    background-color: #ff2264;
+    color: black;
+    
+}
+button{
+    display:flex;
+    background-color: black;
+    color:white;
+    margin:auto;
+    margin-bottom:5%;
+}
+form{
+   margin-bottom: 2%;
+   
+}
+
+#message-area {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ccc;
+    overflow-y: auto;
+  }
+  
+  .message {
+    background-color: #DCF8C6;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+  }
+  
+  .message.sent {
+    align-self: flex-end;
+    background-color: #DCF8C6;
+  }
+  
+  .message.received {
+    align-self: flex-start;
+    background-color: #E5E5EA;
+  }
+    
+  #messageInput {
+    margin-top: 10px;
+  }
+  
+  #messageInput input {
+    width: 200px;
+    padding: 5px;
+  }
+  
+  #messageInput button {
+    padding: 5px 10px;
+  }
+  
