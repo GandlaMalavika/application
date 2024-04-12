@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <title>Chat Room Application</title>
+       <link rel="stylesheet" type="text/css" href="styles.css">
+   </head>
+   <body>
+    <h3>CHAT-BOAT</h3>
+       <div id="chat-room">
+           <div id="message-area"></div>
+           <textarea id="message-input" placeholder="Type your message here" disabled></textarea>
+           <button id="sendbtn" onclick="sendMessage()" disabled>send</button>
+           <button id="login-btn" onclick="openRegistrationForm()">Login</button>
+       </div>
+       <div id="registration-form" style="display: none;">
+           <label>USERNAME:</label>
+           <input type="text" id="username" placeholder="Enter your username">
+           <label>EMAIL:</label>
+           <input type="email" id="email" placeholder="Enter your email">
+           <button onclick="registerUser()">Register</button>
+       </div>
+       <script src="script.js"></script>
+   </body>
+   </html>
